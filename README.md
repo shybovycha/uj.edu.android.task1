@@ -1,22 +1,23 @@
+# Programowanie Android. Zadanie #1
+
+## Credentials
+
 Programowanie Urządzeń Mobilnych  - Laboratoria
 Uniwersytet Jagielloński, Instytut Informatyki i Matematyki Komputerowej, 2014
 
-Autor: Przemysław Kadela
-Spotkanie: 2014-10-06
-Grupa: 4
+**Task:** Przemysław Kadela
 
+**Solution:** Artem Shoobovych
 
-------------------------------------------------------------------------------
-AGENDA
+**Workshop:** (1) 2014-10-06
+
+## Topics
 
 * Rozgrzewka w Javie
 
+## Assignements
 
-------------------------------------------------------------------------------
-ĆWICZENIA
-
----------------------------------------
-1. Numer IBAN
+### Numer IBAN
 
 Napisać aplikację sprawdzającą poprawność numerów IBAN. Program odczytuje z pliku in.txt kolejne wiersze tekstu ignorując białe znaki (spacje, tabulacje). Jeżeli wiersz nie jest pusty program sprawdza, czy jest to prawidłowy numer rachunku IBAN. Program ma działać wyłącznie dla numerów polskich (rozpoczynających się od PL).
 Aplikacja tworzy plik out.txt do którego wpisuje kolejne odczytane wiersze i na końcu dopisuje informację, czy numer w danym wierszu jest prawidłowy.
@@ -32,17 +33,23 @@ Algorytm sprawdzania cyfr kontrolnych IBAN to:
   
 Przykład:
 
-in.txt zawiera
+`in.txt` zawiera:
+
+```
   PL 42 1840 0007 2213 3200 0811 1319
   PL 22 1840 0007 2213 3200 0811 1319
   EN 42 1840 0007 2213 3200 0811 1319
   PL 82 222
+```
   
-out.txt:
+`out.txt` zawiera:
+
+```
   PL42184000072213320008111319 POPRAWNY
   PL22184000072213320008111319 BLEDNY
   EN42184000072213320008111319 BLEDNY
   PL82222 BLEDNY
+```
 
 ---------------------------------------
 
